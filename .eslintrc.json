@@ -1,0 +1,15 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:react/recommended"],
+    "plugins": ["prettier"],
+    "ignorePatterns": ["client", "node_modules/"],
+    "rules": {
+        "prettier/prettier": "error",
+        "func-names": "off",
+        "no-unused-vars": "warn",
+        "no-unused-expressions": "off",
+        "no-console": "off",
+        "no-underscore-dangle": "off",
+        "no-useless-escape": "off",
+        "no-process-exit": "off"
+    }
+}
