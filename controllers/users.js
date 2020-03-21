@@ -1,15 +1,15 @@
 exports.getUsers = async (req, res) => {
-  res.status(200).json('getUsers');
+  res.status(200).json('GET');
 };
 
-exports.getUser = async (req, res) => {
-  res.status(200).json(`getUser ${req.params.id} by id`);
+exports.postUsers = async (req, res) => {
+  res.status(200).json(`POST`);
 };
 
-exports.updateUser = async (req, res) => {
-  res.status(200).json(`updateUsers ${req.params.id}`);
+exports.putUsers = async (req, res) => {
+  res.status(200).json(`PUT`);
 };
 
-exports.deleteUser = async (req, res) => {
-  res.status(200).json('deleteUser by id');
+exports.deleteUsers = async (req, res) => {
+  res.status(200).json('DELETE');
 };
